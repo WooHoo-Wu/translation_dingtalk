@@ -8,7 +8,15 @@
     "ts-types": "tsc --emitDeclarationOnly --outDir dist",
     "build": "rm -rf dist && node ./esbuild.node.js && npm run ts-types"
   },
-  "author": "",
+  "author": "WooHoo!!!",
+  "keywords": [
+    "translation",
+    "dingtalk",
+    "gpt",
+    "chatGPT",
+    "language",
+    "multi-language"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/types": "^7.22.11",
