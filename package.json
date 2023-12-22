@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "translation_dingtalk",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ts-types": "tsc --emitDeclarationOnly --outDir dist",
+    "build": "rm -rf dist && node ./esbuild.node.js && npm run ts-types"
   },
   "author": "",
   "license": "ISC",

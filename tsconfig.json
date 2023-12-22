@@ -5,7 +5,7 @@
         "lib": [
             "esnext", "dom"
         ],
-        "outDir": "./lib/",
+        "outDir": "./dist/",
         "sourceMap": true,
         "esModuleInterop": true,
         "moduleResolution": "node",
