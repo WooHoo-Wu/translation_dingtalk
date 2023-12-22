@@ -1,0 +1,24 @@
+{
+  "name": "translation_dingtalk",
+  "version": "1.0.0",
+  "description": "translation_dingtalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/types": "^7.22.11",
+    "@types/lodash": "^4.14.197",
+    "@types/node": "^20.5.4",
+    "esbuild": "^0.19.2"
+  },
+  "dependencies": {
+    "@google-cloud/translate": "^8.0.1",
+    "axios": "^1.4.0",
+    "colors": "^1.4.0",
+    "lodash": "^4.17.21",
+    "openai": "^3.3.0"
+  }
+}
