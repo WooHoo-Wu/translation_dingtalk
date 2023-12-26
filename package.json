@@ -1,6 +1,6 @@
 {
 	"name": "translation_dingtalk",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "translation_dingtalk",
 	"main": "dist/index.js",
 	"type": "module",
