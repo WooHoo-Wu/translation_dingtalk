@@ -15,7 +15,10 @@
 		"gpt",
 		"chatGPT",
 		"language",
-		"multi-language"
+		"multi-language",
+		"翻译",
+		"自动化翻译",
+		"多语言"
 	],
 	"license": "ISC",
 	"devDependencies": {
