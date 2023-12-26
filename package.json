@@ -1,34 +1,38 @@
 {
-  "name": "translation_dingtalk",
-  "version": "2.0.1",
-  "description": "translation_dingtalk",
-  "main": "dist/index.js",
-  "type": "module",
-  "scripts": {
-    "ts-types": "tsc --emitDeclarationOnly --outDir dist",
-    "build": "rm -rf dist && node ./esbuild.node.js && npm run ts-types"
-  },
-  "author": "WooHoo!!!",
-  "keywords": [
-    "translation",
-    "dingtalk",
-    "gpt",
-    "chatGPT",
-    "language",
-    "multi-language"
-  ],
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/types": "^7.22.11",
-    "@types/lodash": "^4.14.197",
-    "@types/node": "^20.5.4",
-    "esbuild": "^0.19.2"
-  },
-  "dependencies": {
-    "@google-cloud/translate": "^8.0.1",
-    "axios": "^1.4.0",
-    "colors": "^1.4.0",
-    "lodash": "^4.17.21",
-    "openai": "^3.3.0"
-  }
+	"name": "translation_dingtalk",
+	"version": "2.0.1",
+	"description": "translation_dingtalk",
+	"main": "dist/index.js",
+	"type": "module",
+	"scripts": {
+		"ts-types": "tsc --emitDeclarationOnly --outDir dist",
+		"build": "rm -rf dist && node ./esbuild.node.js && npm run ts-types"
+	},
+	"author": "WooHoo!!!",
+	"keywords": [
+		"translation",
+		"dingtalk",
+		"gpt",
+		"chatGPT",
+		"language",
+		"multi-language"
+	],
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/types": "^7.22.11",
+		"@types/lodash": "^4.14.197",
+		"@types/node": "^20.5.4",
+		"esbuild": "^0.19.2"
+	},
+	"dependencies": {
+		"@google-cloud/translate": "^8.0.1",
+		"axios": "^1.4.0",
+		"colors": "^1.4.0",
+		"lodash": "^4.17.21",
+		"openai": "^3.3.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WooHoo-Wu/translation_dingtalk.git"
+	}
 }
