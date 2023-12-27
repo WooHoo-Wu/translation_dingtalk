@@ -62,7 +62,7 @@
 
 ### optType
 
-$\color{#ff4d4f}{必填}$
+`必填`
 类型：OptionType
 
 推荐只使用 1
@@ -86,7 +86,7 @@ enum OptionType {
 
 `只有在 optType 为 '1' 的时候生效`
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string
 
 ```
@@ -97,7 +97,7 @@ $\color{#a0d911}{选填}$
 
 `只有在 optType 为 '1' 的时候生效`
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string
 
 ```
@@ -112,7 +112,7 @@ example：
 
 ### skipSheetNameList
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string[]
 
 ```
@@ -130,7 +130,7 @@ example：
 
 `新增的语言简码，需要和langConfig 中的value对应`
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string[]
 
 ```
@@ -146,7 +146,7 @@ example：
 
 `需要和langConfig 中的value对应`
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：[string[], string][]
 
 ```
@@ -162,7 +162,7 @@ example：
 
 `需要和langConfig 中的value对应`
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string[]
 
 ```
@@ -178,7 +178,7 @@ example：
 
 `gpt生成key值，对应langConfig数组的下标`
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：number[]
 
 `默认值`
@@ -200,7 +200,7 @@ example：
 
 `需要和langConfig 中的value对应`
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string
 
 `默认值`
@@ -218,7 +218,7 @@ example：
 
 ### skipLangNameList
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string[]
 
 ```
@@ -233,7 +233,7 @@ example：
 
 ### skipSheetNameList
 
-$\color{#a0d911}{选填}$
+`选填`
 类型：string[]
 
 ```
