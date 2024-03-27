@@ -11,5 +11,6 @@ esbuild
         platform: "node",
         external: ["axios", "lodash"],
         format: "esm",
+        tsconfig: "tsconfig.json",
     })
     .catch(() => process.exit(1));
