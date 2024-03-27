@@ -7,9 +7,9 @@ esbuild
         sourcemap: false,
         minify: true, // 压缩代码
         outdir: "dist",
-        target: "esnext",
+        target: "es2020",
         platform: "node",
         external: ["axios", "lodash"],
-        format: "cjs",
+        format: "esm",
     })
     .catch(() => process.exit(1));

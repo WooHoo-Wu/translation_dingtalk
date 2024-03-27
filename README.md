@@ -147,6 +147,26 @@ example：
 `需要和langConfig 中的value对应`
 
 `选填`
+类型：string
+
+`默认值`
+'en-US'
+
+```
+翻译的原型语言, 需要和langConfig 中的value对应
+在output中，这个语言作为循环文件的主文件
+```
+
+```
+example：
+    'en-US' 那么这个语言的目录将作为主目录，根据这个生成其他语言的目录结构
+```
+
+### translateSpecial
+
+`需要和langConfig 中的value对应`
+
+`选填`
 类型：[string[], string][]
 
 ```
